@@ -1,0 +1,17 @@
+{
+  "name": "tailwing-lesson",
+  "version": "1.0.0",
+  "description": "Создание tailwind шаг 1 - npm init (везде пробел) шаг 2 - npm install -D tailwindcss postcss autoprefixer         npx tailwindcss init шаг 3 - в файле тайлвинд конфиг добавляем путь к html файлу шаг 4 - создаем в корне папку src / main.css  в этот файл добавляем   -   @tailwind base;                             @tailwind components;                             @tailwind utilities;",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i src/main.css -o public/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.36",
+    "tailwindcss": "^3.4.1"
+  },
+  "keywords": []
+}
